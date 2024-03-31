@@ -87,7 +87,9 @@ touch git-aliases.zsh
 nano git-aliases.zsh
 ```
 
-- **Add Your Alias or Function**: Insert your custom alias or function. For a dynamic Git push command with a default commit message, use:
+- **Add Your Alias or Function**: Insert your custom alias or function.
+
+Here's an example of a dynamic Git push command with a default commit message:
 
 ```
 gpush() {
@@ -98,6 +100,8 @@ gpush() {
 ```
 
 Save and close the file after adding your customizations.
+
+Now you can just type `gpush` in your git directory, optionally add a commit message, and it will add, commit, and push in one command
 
 ## Step 4: Apply Your Customizations
 
