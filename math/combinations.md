@@ -5,9 +5,9 @@
 1. **Combinations (_C(n, k)_)**: The number of ways to choose _k_ elements from a set of _n_ elements without regard to the order.
    
    Formula:
-   $$
-   C(n, k) = \frac{n!}{k!(n - k)!}
-   $$
+$$
+C(n, k) = \frac{n!}{k!(n - k)!}
+$$
 
 2. **Permutations (_P(n, k)_)**: The number of ways to choose _k_ elements from a set of _n_ elements with regard to the order.
    
