@@ -1,10 +1,20 @@
-Use 
-```sudo apt install conky-all```
-for a box to display system stats.
+## System Monitoring with Conky on Ubuntu
 
-Possible conky config for dual GPUs that shows updates available below, this should be found at ~/.conkyrc
+Conky is a system monitor for X. It is configurable and scriptable and is able to monitor various system parameters including CPU, memory, disk usage, network activity, and basically any stat that could generate a command-line output. It allows users to display system information on their desktop for performance monitoring and other status checks.
 
+### Installing Conky
 
+To install Conky on Ubuntu:
+
+```bash
+sudo apt install conky-all
+```
+
+### Configuring Conky
+
+Below is a sample Conky configuration for a system with dual GPUs that also shows available updates. Save this configuration in the `~/.conkyrc` file.
+
+```lua
 conky.config = {
     alignment = 'top_right',
     background = true,
@@ -71,7 +81,6 @@ ${color #ADD8E6}Storage: ${goto 170}${fs_used /}/${fs_size /}
 ${fs_bar 10 /}${color}
 ${color #ADD8E6}Read/Write: ${goto 170}${diskio_read}/${diskio_write}${color}
 
-
 ${color #FFB6C1}${font DejaVu Sans Mono:bold:size=10}Network${font}${color}
 ${hr 2}
 ${color #ADD8E6}Down: ${downspeedf wlp9s0} KiB/s${color}
@@ -92,3 +101,4 @@ ${color #FFB6C1}${font DejaVu Sans Mono:bold:size=10}Updates${font}${color}
 ${hr 2}
 ${color #ADD8E6}Updates Available: ${execi 3600 apt list --upgradeable 2>/dev/null | grep -c upgradable}${color}
 ]];
+```
