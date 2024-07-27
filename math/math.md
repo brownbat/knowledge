@@ -4,7 +4,7 @@
 2. **Last term (_l_)**
 3. **Common difference (_d_)**: 
 
-  (item<sub>1</sub> - item<sub>0</sub>)
+  _(item<sub>1</sub> - item<sub>0</sub>)_
   
 5. **Number of terms (n)**:
    
