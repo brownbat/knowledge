@@ -8,7 +8,7 @@
   
 5. **Number of terms (n)**:
    
-  _n_ = (_l_ - _a_) / _d_ + 1
+  _n_ = ((_l_ - _a_) / _d_) + 1
 
 6. **Sum of the sequence (S)**:
 
