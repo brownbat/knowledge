@@ -15,9 +15,10 @@ n = (last_term - first_term) / common_difference + 1
 2. **Last term (l)**: 50
 3. **Common difference (d)**: 1
 4. **Number of terms (n)**:
+
 ```n = (50 - 1) / 1 + 1 = 50```
 
-5. **Sum (S)**:
+6. **Sum (S)**:
 
 `S = 50 / 2 * (1 + 50) = 25 * 51 = 1275`
 
