@@ -95,3 +95,26 @@ Example: Convert the augmented matrix from Step 1 to row-echelon form.
 ### Step 3: Back-Substitute to Solve
 
 $$z = -14/15$$
+
+Therefore 
+$$y + -4/7z = 0
+y = 4/7 * -14/15
+y = -14*4 / 7 * 15
+y = -8 / 15
+$$
+
+And 
+$$2x + 3(-8/15) + -(-14/15) = 0
+2x = 24/15 - 14/15
+2x = 10/15
+x = 1/3
+$$
+
+For 
+
+$$\begin{bmatrix}
+x = 1/3
+y = -8/15
+z = -14/15
+\end{bmatrix}
+$$
