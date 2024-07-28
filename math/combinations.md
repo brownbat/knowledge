@@ -98,19 +98,19 @@ Doing the full calculation of _8!_ first, it would expand to 40320, a five-digit
    - You can also commonly cancel common multiplicands.
 
 ```math
-      \[
       15 \cdot 14 \cdot 13 \cdot 12 \cdot 11 \cdot 10 \ldots
-      \]
 ```
 Shares abundant factors from 2 to 9.
 
 Avoid premature canceling of 10, instead pulling 2 from other even numbers, to preserve simple mental math later.
 
-   - Ignore 1s. You can, of course, always ignore the final 1 term in factorials.
+   - Ignore 1s. You can, of course, always omit the final 1 term when expanding factorials, as 1 * n = n
 
 4. **Symmetry Property**:
 ```math
-\( \binom{n}{r} = \binom{n}{n - r} \). Use this to reduce the number of calculations when \( r \) is larger than \( \frac{n}{2} \).
+\binom{n}{r} = \binom{n}{n - r} 
+
+Use this to reduce the number of calculations when \( r \) is larger than \( \frac{n}{2}
 ```
 
 5. If you know the number of permutations \( P(n,r) \), you can find the number of combinations \( \binom{n}{r} \) by dividing permutations by \( r! \). Every combination will have \( r! \) orderings, so divide that out to get back down to combinations without regard to order.
