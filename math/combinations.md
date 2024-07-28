@@ -85,6 +85,7 @@ P(5, 3) = \frac{5!}{(5 - 3)!} = \frac{5!}{2!} = \frac{5 \times 4 \times 3 \times
       ```math
       \frac{8!}{5! \cdot 3!}
       ```
+
       We can cancel the _5!_ from top and bottom.
       That leaves:
       $$
