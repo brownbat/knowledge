@@ -19,7 +19,7 @@ Systems of linear equations can be solved using various methods, including subst
 - Use row operations to transform the matrix into row-echelon form (upper triangular form).
 - Back-substitute to find the solutions.
 
-Step 1: Write the Augmented Matrix
+### Step 1: Write the Augmented Matrix
 
 Convert the system of equations into an augmented matrix. 
 
@@ -42,7 +42,7 @@ The augmented matrix is:
 \end{bmatrix}
 ```
 
-Step 2: Perform Row Operations to Reach Row-Echelon Form
+### Step 2: Perform Row Operations to Reach Row-Echelon Form
 
 Use the following row operations to simplify the matrix:
 
@@ -91,3 +91,7 @@ Example: Convert the augmented matrix from Step 1 to row-echelon form.
 0 & 0 & \frac{15}{7} & \mid & -2
 \end{bmatrix}
 ```
+
+### Step 3: Back-Substitute to Solve
+
+$$z = -14/15$$
