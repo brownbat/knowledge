@@ -24,20 +24,20 @@ Step 1: Write the Augmented Matrix
 Convert the system of equations into an augmented matrix. 
 
 For example, consider the system of equations:
-\[
+```math
 \begin{cases}
 2x + 3y - z = 1 \\
 4x - y + 2z = 2 \\
 -2x + y + 2z = -3
 \end{cases}
-\]
+```
 
 The augmented matrix is:
 
-\[
+```math
 \begin{bmatrix}
 2 & 3 & -1 & \mid & 1 \\
 4 & -1 & 2 & \mid & 2 \\
 -2 & 1 & 2 & \mid & -3
 \end{bmatrix}
-\]
+```
