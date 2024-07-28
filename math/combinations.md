@@ -74,7 +74,7 @@ P(5, 3) = \frac{5!}{(5 - 3)!} = \frac{5!}{2!} = \frac{5 \times 4 \times 3 \times
 1. **Choosing 1 item**: _n_ when there are _n_ items.
 
 2. **Choosing 0 or All Items**:
-    - \( \binom{n}{0} = 1 \) and \( \binom{n}{n} = 1 \) because there is only one way to choose none or all items.
+    - $$\( \binom{n}{0} = 1 \)$$ and $$\( \binom{n}{n} = 1 \)$$ because there is only one way to choose none or all items.
 
 3. **Simplifying Factorials**:
     - Cancel common factorials to quickly simplify these factorials. For example,
