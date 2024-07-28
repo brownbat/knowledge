@@ -62,11 +62,7 @@ Example: Convert the augmented matrix from Step 1 to row-echelon form.
 \end{bmatrix}
 ```
 
-2. 
-
-```math
-    R_3 \leftarrow R_3 + R_1
-```
+2. $R_3 \leftarrow R_3 + R_1$
 
 ```math
 \begin{bmatrix}
@@ -76,11 +72,7 @@ Example: Convert the augmented matrix from Step 1 to row-echelon form.
 \end{bmatrix}
 ```
 
-3. 
-
-```math
-    R_2 \leftarrow \frac{1}{-7} R_2
-```
+3. $R_2 \leftarrow \frac{1}{-7} R_2$
 
 ```math
 \begin{bmatrix}
@@ -90,11 +82,7 @@ Example: Convert the augmented matrix from Step 1 to row-echelon form.
 \end{bmatrix}
 ```
 
-4. 
-
-```math
-    R_3 \leftarrow R_3 - 4 R_2
-```
+4. $R_3 \leftarrow R_3 - 4 R_2$
 
 ```math
 \begin{bmatrix}
