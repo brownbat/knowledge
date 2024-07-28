@@ -147,9 +147,10 @@ Use this to reduce the number of calculations when _r_ is larger than $\frac{n}{
 3. **Sports Team Selection (combination with constraint)**
     - **Problem**: A sports team has 10 players, including 4 seniors. They need to select 6 players to participate in an upcoming match, but at least 1 senior must be included in the selection. How many different ways can the team be selected?
 
+
 ### Combinations with Constraints
 
-If groups require _n_ members of some special subgroup, you have to subtract out each case where the constraint is not met. For example:
+If groups require _n_ members of some special subgroup, you have to subtract out each case where the constraint is not met. For example...
 
 **Problem**:
 
@@ -163,15 +164,16 @@ A company has 15 employees, including 5 managers. They need to form a project te
 ```
 
 2. **Subtract Cases with Fewer Than 3 Managers**:
-    - **Zero Managers Case**: Total ways to choose 8 members from 10 non-managers.
+- **Zero Managers Case**: Total ways to choose 8 members from 10 non-managers.
 ```math
         \binom{10}{8}
 ```
-    - **One Manager Case**: Choose 1 manager from 5 and the remaining 7 from 10 non-managers.
+
+- **One Manager Case**: Choose 1 manager from 5 and the remaining 7 from 10 non-managers.
 ```math
         \binom{5}{1} \times \binom{10}{7}
 ```
-    - **Two Managers Case**: Choose 2 managers from 5 and the remaining 6 from 10 non-managers.
+- **Two Managers Case**: Choose 2 managers from 5 and the remaining 6 from 10 non-managers.
 ```math
         \binom{5}{2} \times \binom{10}{6}
 ```
@@ -182,11 +184,11 @@ A company has 15 employees, including 5 managers. They need to form a project te
 ```math
     \binom{15}{8} = \frac{15!}{8! \cdot 7!}
 ```
-    Cancel \(8!\):
+Cancel \(8!\):
 ```math
     = \frac{15 \cdot 14 \cdot 13 \cdot 12 \cdot 11 \cdot 10 \cdot 9}{7 \cdot 6 \cdot 5 \cdot 4 \cdot 3 \cdot 2}
 ```
-    Simplify more like terms:
+Simplify more like terms:
 ```math
     = 13 \cdot 11 \cdot 9 \cdot 5 = 6435
 ```
@@ -200,7 +202,7 @@ A company has 15 employees, including 5 managers. They need to form a project te
 ```math
     \binom{5}{1} \times \binom{10}{7} = 5 \times \frac{10!}{7! \cdot 3!} = 5 \times \frac{10 \cdot 9 \cdot 8}{3 \cdot 2}
 ```
-    Remove like terms, preserve 10s:
+Remove like terms, preserve 10s:
 ```math
     = 5 \times 10 \times (3 \times 4) = 5 \times 120 = 600
 ```
@@ -209,7 +211,7 @@ A company has 15 employees, including 5 managers. They need to form a project te
 ```math
     \binom{5}{2} \times \binom{10}{6} = \left( \frac{5 \cdot 4}{2} \right) \times \frac{10!}{6! \cdot 4!} = 10 \times \frac{10 \cdot 9 \cdot 8 \cdot 7}{4 \cdot 3 \cdot 2}
 ```
-    Simplify:
+Simplify:
 ```math
     = 10 \times 3 \times 7 = 2100
 ```
