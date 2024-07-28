@@ -92,29 +92,42 @@ Example: Convert the augmented matrix from Step 1 to row-echelon form.
 \end{bmatrix}
 ```
 
-### Step 3: Back-Substitute to Solve
+Solve for $\mathcal{z}$:
 
-$$z = -14/15$$
+```math
+    z = -\frac{14}{15}
+```
 
-Therefore 
-$$y + -4/7z = 0
-y = 4/7 * -14/15
-y = -14*4 / 7 * 15
-y = -8 / 15
-$$
+Solve for $\mathcal{y}$:
 
-And 
-$$2x + 3(-8/15) + -(-14/15) = 0
-2x = 24/15 - 14/15
-2x = 10/15
-x = 1/3
-$$
+```math
+\begin{align*}
+    y + \frac{-4}{7}z = 0 \\
+    y = \frac{4}{7} \times \frac{-14}{15} \\
+    y = \frac{-14 \times 4}{7 \times 15} \\
+    y = \frac{-56}{105} \\
+    y = -\frac{8}{15}
+\end{align*}
+```
 
-For 
+Solve for $\mathcal{x}$:
 
-$$\begin{bmatrix}
-x = 1/3
-y = -8/15
-z = -14/15
-\end{bmatrix}
-$$
+```math
+\begin{align*}
+    2x + 3\left(\frac{-8}{15}\right) + \left(-\left(-\frac{14}{15}\right)\right) = 0 \\
+    2x = \frac{24}{15} - \frac{14}{15} \\
+    2x = \frac{10}{15} \\
+    x = \frac{10}{30} \\
+    x = \frac{1}{3}
+\end{align*}
+```
+
+Therefore, the solution is:
+
+```math
+\begin{cases}
+x = \frac{1}{3} \
+y = -\frac{8}{15} \
+z = -\frac{14}{15}
+\end{cases}
+```
