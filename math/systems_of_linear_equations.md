@@ -41,3 +41,53 @@ The augmented matrix is:
 -2 & 1 & 2 & \mid & -3
 \end{bmatrix}
 ```
+
+Step 2: Perform Row Operations to Reach Row-Echelon Form
+
+Use the following row operations to simplify the matrix:
+
+- Swap rows.
+- Multiply a row by a nonzero scalar.
+- Add or subtract multiples of one row from another row.
+
+Example: Convert the augmented matrix from Step 1 to row-echelon form.
+
+1. $$R2←R2−2R1$$
+
+```math
+\begin{bmatrix}
+2 & 3 & -1 & \mid & 1 \
+0 & -7 & 4 & \mid & 0 \
+-2 & 1 & 2 & \mid & -3
+\end{bmatrix}
+```
+
+2. $$R3←R3+R1$$
+
+```math
+\begin{bmatrix}
+2 & 3 & -1 & \mid & 1 \
+0 & -7 & 4 & \mid & 0 \
+0 & 4 & 1 & \mid & -2
+\end{bmatrix}
+```
+
+3. $$R2←1−7R2$$
+
+```math
+\begin{bmatrix}
+2 & 3 & -1 & \mid & 1 \
+0 & 1 & -\frac{4}{7} & \mid & 0 \
+0 & 4 & 1 & \mid & -2
+\end{bmatrix}
+```
+
+4. $$R3←R3−4R2$$
+
+```math
+\begin{bmatrix}
+2 & 3 & -1 & \mid & 1 \
+0 & 1 & -\frac{4}{7} & \mid & 0 \
+0 & 0 & \frac{15}{7} & \mid & -2
+\end{bmatrix}
+```
