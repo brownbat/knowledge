@@ -74,19 +74,19 @@ P(5, 3) = \frac{5!}{(5 - 3)!} = \frac{5!}{2!} = \frac{5 \times 4 \times 3 \times
 1. **Choosing 1 item**: _n_ when there are _n_ items.
 
 2. **Choosing 0 or All Items**:
-    - $$\binom{n}{0} = 1$$ and $$\binom{n}{n} = 1$$ because there is only one way to choose none or all items.
+    - $\binom{n}{0} = 1$ and $\binom{n}{n} = 1$ because there is only one way to choose none or all items.
 
 3. **Simplifying Factorials**:
     - Cancel common factorials to quickly simplify these factorials. For example,
-      $$
+      ```math
       \frac{8!}{5! \cdot 3!}
-      $$
-      We can cancel the $$5!$$ from top and bottom.
+      ```
+      We can cancel the _5!_ from top and bottom.
       That leaves:
       $$
       \frac{8 \cdot 7 \cdot 6}{3 \cdot 2} = 8 \cdot 7 = 56
       $$
-      Doing the full calculation of $$8!$$ first, it would expand to 40320, a five-digit number and much slower to manipulate than multiplication of two single-digit numbers.
+      Doing the full calculation of _8!_ first, it would expand to 40320, a five-digit number and much slower to manipulate than multiplication of two single-digit numbers.
 
     - You can also commonly cancel common multiplicands.
       \[
