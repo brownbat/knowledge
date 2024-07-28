@@ -52,11 +52,7 @@ Use the following row operations to simplify the matrix:
 
 Example: Convert the augmented matrix from Step 1 to row-echelon form.
 
-1. 
-
-```math
-    R_2 \leftarrow R_2 - 2 \cdot R_1
-```
+1. $R_2 \leftarrow R_2 - 2 \cdot R_1$
 
 ```math
 \begin{bmatrix}
