@@ -10,11 +10,11 @@ Systems of linear equations can be solved using various methods, including subst
 
 ### Elimination Method
 - Multiply or divide equations to align coefficients of one variable.
-        Add or subtract equations to eliminate one variable.
-        Solve the resulting system of equations.
-        Repeat as necessary to solve for all variables.
+- Add or subtract equations to eliminate one variable.
+- Solve the resulting system of equations.
+- Repeat as necessary to solve for all variables.
 
 ### Gaussian Elimination (Row Reduction)
 - Write the system of equations as an augmented matrix.
-        Use row operations to transform the matrix into row-echelon form (upper triangular form).
-        Back-substitute to find the solutions.
+- Use row operations to transform the matrix into row-echelon form (upper triangular form).
+- Back-substitute to find the solutions.
