@@ -178,6 +178,12 @@ A company has 15 employees, including 5 managers. They need to form a project te
         \binom{5}{2} \times \binom{10}{6}
 ```
 
+**Therefore, total valid teams:**:
+```math
+    \binom{15}{8} - \left( \binom{10}{8} + \left( \binom{5}{1} \times \binom{10}{7} \right) + \left( \binom{5}{2} \times \binom{10}{6} \right) \right)
+```
+
+
 **Calculations**:
 
 1. **Total Ways to Choose 8 Members from 15**:
@@ -216,7 +222,7 @@ Simplify:
     = 10 \times 3 \times 7 = 2100
 ```
 
-**Total Valid Teams**:
+**Recall total valid teams:**:
 ```math
     \binom{15}{8} - \left( \binom{10}{8} + \left( \binom{5}{1} \times \binom{10}{7} \right) + \left( \binom{5}{2} \times \binom{10}{6} \right) \right)
 ```
