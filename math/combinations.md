@@ -24,7 +24,13 @@
 2. **Chosen elements (_k_)**: 3
 
 **Solution**:
-C(5, 3) = \frac{5!}{3!(5 - 3)!} = \frac{5!}{3! \cdot 2!} = \frac{5 \times 4 \times 3!}{3! \cdot 2 \times 1} = \frac{5 \times 4}{2 \times 1} = 10
+```math
+C(5, 3) = \frac{5!}{3!(5 - 3)!} 
+= \frac{5!}{3! \cdot 2!} 
+= \frac{5 \times 4 \times 3!}{3! \cdot 2 \times 1} 
+= \frac{5 \times 4}{2 \times 1} 
+= 10
+```
 
 #### Example 2: Permutations
 
