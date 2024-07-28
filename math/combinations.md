@@ -117,24 +117,24 @@ Use this to reduce the number of calculations when _r_ is larger than $\frac{n}{
 ### Formula Relationship
 
 1. **Permutations**:
-    \[
+```math
     P(n, r) = \frac{n!}{(n - r)!}
-    \]
+```
 
 2. **Combinations**:
-    \[
+```math
     \binom{n}{r} = \frac{n!}{r!(n - r)!}
-    \]
+```
 
 3. The relationship between permutations and combinations is given by:
-    \[
+```math
     P(n, r) = \binom{n}{r} \cdot r!
-    \]
+```
 
 4. To find the number of combinations from permutations:
-    \[
+```math
     \binom{n}{r} = \frac{P(n, r)}{r!}
-    \]
+```
 
 ### Sample Word Problems
 
