@@ -112,8 +112,7 @@ Avoid premature canceling of 10, instead pulling 2 from other even numbers, to p
 ```
 Use this to reduce the number of calculations when _r_ is larger than $\frac{n}{2}$
 
-
-5. If you know the number of permutations \( P(n,r) \), you can find the number of combinations \( \binom{n}{r} \) by dividing permutations by \( r! \). Every combination will have \( r! \) orderings, so divide that out to get back down to combinations without regard to order.
+5. If you know the number of permutations _P(n,r)_, you can find the number of combinations $\binom{n}{r}$ by dividing permutations by $r!$. Every combination will have _r!_ orderings, so divide that out to get back down to combinations without regard to order.
 
 ### Formula Relationship
 
