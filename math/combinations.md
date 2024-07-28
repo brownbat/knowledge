@@ -82,21 +82,23 @@ P(5, 3) = \frac{5!}{(5 - 3)!} = \frac{5!}{2!} = \frac{5 \times 4 \times 3 \times
 
 3. **Simplifying Factorials**:
     - Cancel common factorials to quickly simplify these factorials. For example,
-      ```math
+```math
       \frac{8!}{5! \cdot 3!}
-      ```
+```
 
       We can cancel the _5!_ from top and bottom.
       That leaves:
-      $$
+$$
       \frac{8 \cdot 7 \cdot 6}{3 \cdot 2} = 8 \cdot 7 = 56
-      $$
+$$
       Doing the full calculation of _8!_ first, it would expand to 40320, a five-digit number and much slower to manipulate than multiplication of two single-digit numbers.
 
     - You can also commonly cancel common multiplicands.
+```math
       \[
       15 \cdot 14 \cdot 13 \cdot 12 \cdot 11 \cdot 10 \ldots
       \]
+```
       Shares abundant factors from 2 to 9.
       Avoid premature canceling of 10, instead pulling 2 from other even numbers, to preserve simple mental math later.
 
