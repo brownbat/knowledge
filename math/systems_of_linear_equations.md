@@ -52,7 +52,11 @@ Use the following row operations to simplify the matrix:
 
 Example: Convert the augmented matrix from Step 1 to row-echelon form.
 
-1. $$R_2←R_2−2\cdotR_1$$
+1. 
+
+```math
+    R_2 \leftarrow R_2 - 2 \cdot R_1
+```
 
 ```math
 \begin{bmatrix}
@@ -62,7 +66,11 @@ Example: Convert the augmented matrix from Step 1 to row-echelon form.
 \end{bmatrix}
 ```
 
-2. $$R3←R3+R1$$
+2. 
+
+```math
+    R_3 \leftarrow R_3 + R_1
+```
 
 ```math
 \begin{bmatrix}
@@ -72,7 +80,11 @@ Example: Convert the augmented matrix from Step 1 to row-echelon form.
 \end{bmatrix}
 ```
 
-3. $$R2←1−7R2$$
+3. 
+
+```math
+    R_2 \leftarrow \frac{1}{-7} R_2
+```
 
 ```math
 \begin{bmatrix}
@@ -82,7 +94,11 @@ Example: Convert the augmented matrix from Step 1 to row-echelon form.
 \end{bmatrix}
 ```
 
-4. $$R3←R3−4R2$$
+4. 
+
+```math
+    R_3 \leftarrow R_3 - 4 R_2
+```
 
 ```math
 \begin{bmatrix}
