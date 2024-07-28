@@ -72,40 +72,46 @@ P(5, 3) = \frac{5!}{(5 - 3)!} = \frac{5!}{2!} = \frac{5 \times 4 \times 3 \times
      P(8, 2) = \frac{8!}{(8 - 2)!} = \frac{8!}{6!} = 8 \times 7 = 56
      ```
 
-
 ### Special Cases and Shortcuts
 
-1. **Choosing 1 item**: _n_ when there are _n_ items.
-
-2. **Choosing 0 or All Items**:
+1. **Choosing 0 or All Items**:
     - $\binom{n}{0} = 1$ and $\binom{n}{n} = 1$ because there is only one way to choose none or all items.
 
+2. **Choosing 1 item**: 
+   - _n_ when there are _n_ items.
+
 3. **Simplifying Factorials**:
-    - Cancel common factorials to quickly simplify these factorials. For example,
+    - Cancel common factorials to quickly simplify. For example,
+
 ```math
-      \frac{8!}{5! \cdot 3!}
+\frac{8!}{5! \cdot 3!}
 ```
+We can cancel the _5!_ from top and bottom.
 
-      We can cancel the _5!_ from top and bottom.
-      That leaves:
-$$
-      \frac{8 \cdot 7 \cdot 6}{3 \cdot 2} = 8 \cdot 7 = 56
-$$
-      Doing the full calculation of _8!_ first, it would expand to 40320, a five-digit number and much slower to manipulate than multiplication of two single-digit numbers.
+That leaves:
 
-    - You can also commonly cancel common multiplicands.
+```math
+\frac{8 \cdot 7 \cdot 6}{3 \cdot 2} = 8 \cdot 7 = 56
+```
+Doing the full calculation of _8!_ first, it would expand to 40320, a five-digit number and much slower to manipulate than multiplication of two single-digit numbers.
+
+   - You can also commonly cancel common multiplicands.
+
 ```math
       \[
       15 \cdot 14 \cdot 13 \cdot 12 \cdot 11 \cdot 10 \ldots
       \]
 ```
-      Shares abundant factors from 2 to 9.
-      Avoid premature canceling of 10, instead pulling 2 from other even numbers, to preserve simple mental math later.
+Shares abundant factors from 2 to 9.
 
-    - Ignore 1s. You can, of course, always ignore the final 1 term in factorials.
+Avoid premature canceling of 10, instead pulling 2 from other even numbers, to preserve simple mental math later.
+
+   - Ignore 1s. You can, of course, always ignore the final 1 term in factorials.
 
 4. **Symmetry Property**:
-    - \( \binom{n}{r} = \binom{n}{n - r} \). Use this to reduce the number of calculations when \( r \) is larger than \( \frac{n}{2} \).
+```math
+\( \binom{n}{r} = \binom{n}{n - r} \). Use this to reduce the number of calculations when \( r \) is larger than \( \frac{n}{2} \).
+```
 
 5. If you know the number of permutations \( P(n,r) \), you can find the number of combinations \( \binom{n}{r} \) by dividing permutations by \( r! \). Every combination will have \( r! \) orderings, so divide that out to get back down to combinations without regard to order.
 
