@@ -126,12 +126,12 @@ Use this to reduce the number of calculations when _r_ is larger than $\frac{n}{
     \binom{n}{r} = \frac{n!}{r!(n - r)!}
 ```
 
-3. The relationship between permutations and combinations is given by:
+3. The relationship between permutations and combinations is thus:
 ```math
     P(n, r) = \binom{n}{r} \cdot r!
 ```
 
-4. To find the number of combinations from permutations:
+4. To find combinations from permutations:
 ```math
     \binom{n}{r} = \frac{P(n, r)}{r!}
 ```
@@ -158,85 +158,85 @@ A company has 15 employees, including 5 managers. They need to form a project te
 **Approach**:
 
 1. **Total Ways to Choose 8 Members from 15**:
-    \[
+```math
     \binom{15}{8}
-    \]
+```
 
 2. **Subtract Cases with Fewer Than 3 Managers**:
     - **Zero Managers Case**: Total ways to choose 8 members from 10 non-managers.
-        \[
+```math
         \binom{10}{8}
-        \]
+```
     - **One Manager Case**: Choose 1 manager from 5 and the remaining 7 from 10 non-managers.
-        \[
+```math
         \binom{5}{1} \times \binom{10}{7}
-        \]
+```
     - **Two Managers Case**: Choose 2 managers from 5 and the remaining 6 from 10 non-managers.
-        \[
+```math
         \binom{5}{2} \times \binom{10}{6}
-        \]
+```
 
 **Calculations**:
 
 1. **Total Ways to Choose 8 Members from 15**:
-    \[
+```math
     \binom{15}{8} = \frac{15!}{8! \cdot 7!}
-    \]
+```
     Cancel \(8!\):
-    \[
+```math
     = \frac{15 \cdot 14 \cdot 13 \cdot 12 \cdot 11 \cdot 10 \cdot 9}{7 \cdot 6 \cdot 5 \cdot 4 \cdot 3 \cdot 2}
-    \]
+```
     Simplify more like terms:
-    \[
+```math
     = 13 \cdot 11 \cdot 9 \cdot 5 = 6435
-    \]
+```
 
 2. **Zero Managers Case**:
-    \[
+```math
     \binom{10}{8} = \frac{10!}{8! \cdot 2!} = \frac{10 \cdot 9}{2} = 45
-    \]
+```
 
 3. **One Manager Case**:
-    \[
+```math
     \binom{5}{1} \times \binom{10}{7} = 5 \times \frac{10!}{7! \cdot 3!} = 5 \times \frac{10 \cdot 9 \cdot 8}{3 \cdot 2}
-    \]
+```
     Remove like terms, preserve 10s:
-    \[
+```math
     = 5 \times 10 \times (3 \times 4) = 5 \times 120 = 600
-    \]
+```
 
 4. **Two Managers Case**:
-    \[
+```math
     \binom{5}{2} \times \binom{10}{6} = \left( \frac{5 \cdot 4}{2} \right) \times \frac{10!}{6! \cdot 4!} = 10 \times \frac{10 \cdot 9 \cdot 8 \cdot 7}{4 \cdot 3 \cdot 2}
-    \]
+```
     Simplify:
-    \[
+```math
     = 10 \times 3 \times 7 = 2100
-    \]
+```
 
 **Total Valid Teams**:
-    \[
+```math
     \binom{15}{8} - \left( \binom{10}{8} + \left( \binom{5}{1} \times \binom{10}{7} \right) + \left( \binom{5}{2} \times \binom{10}{6} \right) \right)
-    \]
+```
 
 **Putting It All Together**:
-    \[
+```math
     \binom{15}{8} = 6435
-    \]
-    \[
+```
+```math
     \binom{10}{8} = 45
-    \]
-    \[
+```
+```math
     \binom{5}{1} \times \binom{10}{7} = 600
-    \]
-    \[
+```
+```math
     \binom{5}{2} \times \binom{10}{6} = 2100
-    \]
+```
 
 **Subtracting the Invalid Cases**:
-    \[
+```math
     6435 - (45 + 600 + 2100) = 6435 - 2745 = 3690
-    \]
+```
 
 **Conclusion**:
 
