@@ -99,3 +99,37 @@ $$ a^m + a^n || n < m $$
 The best you can do is factor out the smaller term, leaving: 
 
 $$a^n (a^{m-n} + 1)$$
+
+## Special Problems
+
+How many integer values of *z* make 
+
+$$3600 * (\frac{4}{9})^z$$ 
+
+an integer?
+
+$$3600 = 36 \cdot 100 = 2^4 \cdot 3^2 \cdot 5^2$$
+
+$$3600 \cdot \left( \frac{4}{9} \right)^z $$
+
+$$= 2^4 \cdot 3^2 \cdot 5^2 \cdot 4^z \cdot 9^{-z}$$
+
+$$= 2^4 \cdot 3^2 \cdot 5^2 \cdot 2^{2z} \cdot 3^{-2z}$$
+
+$$= 2^{4+2z} \cdot 3^{2-2z} \cdot 5^2$$
+
+$$-2 \leq z \leq 1$$
+
+Find the greatest prime factor of $`5^6−5^3`$
+
+$$5^6 - 5^3$$
+
+$$= 5^3 \cdot ( 5^3 - 1 )$$
+
+$$5^3 - 1$$
+
+$$= 124$$
+
+$$= 2^3 \cdot 31$$
+
+$$GPF = 31$$
